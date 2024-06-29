@@ -1,33 +1,16 @@
 
+	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¾Íó›†2J$620f34df-eb1a-4a6d-aaaa-ab59b1a93e3d
 ]
-java:S1220""Move this file to a named package.8þ¶ú”†2J$daf28f9e-ad72-4d57-a0d6-82ac7f7c4d32
-Ä
-java:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ç’¥þ8ˆ·ú”†2J$54d4383d-764e-43fb-8076-f7a4338d19ca
-É
-java:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ûËïšüÿÿÿÿ8ˆ·ú”†2J$38866c8d-5e65-42e2-be47-e73f1b2c6c68
-
-java:S1854"9Remove this useless assignment to local variable "count".(ÊÏ‚ãøÿÿÿÿ8·ú”†2J$8911b16b-0105-4ac2-bc6d-f68346c223e2
-
-java:S1854"9Remove this useless assignment to local variable "count".(Æª ³ýÿÿÿÿ8·ú”†2J$6fe2a893-91d1-42b6-88af-a1abab381e71
-
-java:S1854"9Remove this useless assignment to local variable "count".(Ùü±Ïýÿÿÿÿ8·ú”†2J$15e7d7e8-ccde-4f6d-9b92-0f0c7ce7e841
-
-java:S1854"9Remove this useless assignment to local variable "count".(¾Òóìüÿÿÿÿ8·ú”†2J$85b41d79-f27f-43af-a3ea-cc0016c2a160
-‰
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(ßüï’üÿÿÿÿ8·ú”†2J$06341d08-1354-46c6-aa8c-41bbc2463b6b
-m	java:S106"+Replace this use of System.out by a logger.(”“î€8”·ú”†2J$70cc3f53-df2a-4ecb-90c0-113f8cd6cf63
-r
-java:S1481"*Remove this unused "count" local variable.(Å˜Ó¢ýÿÿÿÿ8•·ú”†2J$118d3e78-5c56-47c6-ad5e-3346a042edd4
-i	java:S131""Add a default case to this switch.(³›¯°ùÿÿÿÿ8–·ú”†2J$cbdccc35-4b78-4ff3-99d9-b7fe9d51f13f
+java:S1220""Move this file to a named package.8ÐÍó›†2J$157d9a91-a364-4b6f-8e14-feed269fe592
+„
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ô›…‘8„Ïó›†2J$f3d0c878-6985-40e0-80de-ba3699550390
+m	java:S106"+Replace this use of System.out by a logger.(”“î€8ºÏó›†2J$b0c39e5f-7748-4cac-b520-1733c1245224
+r	java:S106"+Replace this use of System.out by a logger.(Ž³ð¸ûÿÿÿÿ8ÈÏó›†2J$3810efc2-b00b-46ad-a8a7-f0e934b1bfe9
 i
-java:S1481("&Remove this unused "b" local variable.(ûÅ¢·8˜·ú”†2J$8c6307de-8338-4019-9f2d-e0a600d33edc
+java:S1481!"&Remove this unused "b" local variable.(ûÅ¢·8×Ïó›†2J$76a9af2a-14a0-4055-913d-6b4c7acbb429
 k
-java:S14813")Remove this unused "line" local variable.(çäªq8Ô·†•†2J$c9314f14-1793-4c25-acb4-410f04510c07
-r	java:S1068"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ8«í‚•†2J$a5b5a6bc-a5e4-4634-9419-84cf61974234
-r	java:S106>"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ8«í‚•†2J$99dff775-eb1e-4825-b40c-0f0c2ae325dd
+java:S1481,")Remove this unused "line" local variable.(çäªq8âÏó›†2J$6eecd52f-b537-4a0c-87c9-43e838f3feb7
+r	java:S1061"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ8çÏó›†2J$0dae060b-18af-4610-8c32-9890b73f77ba
+r	java:S1067"+Replace this use of System.out by a logger.(¨¶ÑÍþÿÿÿÿ8ëÏó›†2J$7ffd9309-bbb0-406d-9345-c5dd5da30db3
 r
-java:S20931"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8«í‚•†2J$1996db5a-7f04-403a-95e3-058f71da013e
-n
-java:S1172E"+Remove this unused method parameter "file".(Ç’¥þ8 ·ú”†2J$7eb26e8e-27ef-4cb0-aad5-8b0c0d6a2cee
-s
-java:S1172H"+Remove this unused method parameter "file".(ûËïšüÿÿÿÿ8«í‚•†2J$c24ad10b-db61-4228-947e-e268f4cc76ea
+java:S2093*"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8úÏó›†2J$c766776c-92be-4cbe-b778-b3180b1545db

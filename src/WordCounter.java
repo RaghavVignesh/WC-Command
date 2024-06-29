@@ -10,28 +10,21 @@ public class WordCounter {
             Press 4 for Counting Characters
             """;
 
+    static String filePath = "C:\\Users\\HTM3\\Desktop\\Files\\test.txt";
+
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\HTM3\\Desktop\\Files\\test.txt");
+        File file = new File(filePath);
         Scanner sc = new Scanner(System.in);
         System.out.println(text);
         int number = sc.nextInt();
-        int count;
-        switch (number) {
-            case 1:
-                count = countBytes(file);
-                break;
-            case 2:
-                count = countLines(file);
-                break;
-            case 3:
-                count = countWords(file);
-                break;
-            case 4:
-                count = countCharacters(file);
-                break;
-        }
-
-
+        int count = switch (number) {
+            case 1 -> countBytes(file);
+            case 2 -> countLines(file);
+            case 3 -> countWords(file);
+            case 4 -> countCharacters(file);
+            default -> 0;
+        };
+        System.out.println(count);
     }
 
     private static int countBytes(File file) throws IOException {
@@ -65,13 +58,31 @@ public class WordCounter {
         }
         return count;
     }
-
-    private static int countWords(File file) {
+    private static int countWords(File file) throws FileNotFoundException {
+        try (Scanner sc = new Scanner(new FileInputStream(file))) {
+            int count = 0;
+            while (sc.hasNext()) {
+                sc.next();
+                count++;
+            }
+            return count;
+        }
     }
 
     private static int countCharacters(File file) {
-
+        int totalCharCount;
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(new
+                File(String.valueOf(file))))) {
+            String line;
+            totalCharCount = 0;
+            while ((line = bufferedReader.readLine()) != null) {
+                int charCount = line.split("\n").length;
+                totalCharCount += charCount;
+            }
+        }
+        catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return totalCharCount;
     }
-
-
 }
